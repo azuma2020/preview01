@@ -12,11 +12,11 @@
   "stanza:updated": "2023-02-02",
   "stanza:parameter": [
     {
-      "stanza:key": "say-to",
-      "stanza:type": "string",
-      "stanza:example": "world",
-      "stanza:description": "who to say hello to",
-      "stanza:required": false
+      "stanza:key": "data",
+      "stanza:type": "json",
+      "stanza:example": { "value": 42 },
+      "stanza:description": "a object",
+      "stanza:required": true
     }
   ],
   "stanza:menu-placement": "bottom-right",
